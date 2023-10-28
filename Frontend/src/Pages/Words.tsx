@@ -23,7 +23,7 @@ const Words = () => {
 
     // getting the data from the backend and setting the state of allQuestions
     useEffect(()=>{
-        axios.get("http://localhost:3000/words")
+        axios.get("https://english-practicing-test.onrender.com/words")
         .then(response=>{setAllQuestions(response.data)})
         .catch(()=>alert("sorry can't connect to the server, please check your connection and try again"));
     },[]);

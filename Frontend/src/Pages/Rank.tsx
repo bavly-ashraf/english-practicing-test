@@ -10,7 +10,7 @@ const Rank = () => {
     
     // using POST request to send score to back and get rank then setRank with fetched data
     useEffect(()=>{
-        axios.post("http://localhost:3000/rank",{userScore:state})
+        axios.post("https://english-practicing-test.onrender.com/rank",{userScore:state})
         .then(response=>{setRank(response.data)})
         .catch(()=>alert("sorry can't connect to the server, please check your connection and try again"));
     },[]);
