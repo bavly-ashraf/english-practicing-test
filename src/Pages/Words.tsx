@@ -1,5 +1,5 @@
 import axios from 'axios'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 
 type Data = {
@@ -29,7 +29,7 @@ const Words = () => {
     },[]);
 
     // function executed when the user clicks on an answer
-    const handleClick = (pos:string,e)=>{
+    const handleClick = (pos:string,e:any)=>{
         // using self pattern to catch and assign the event of click to the variable
         let self = e.currentTarget.classList;
         // checking if the user already answered the question

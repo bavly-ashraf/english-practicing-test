@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css'
 import AppRoutes from './Routes/AppRoutes'
 import { Link } from 'react-router-dom'
