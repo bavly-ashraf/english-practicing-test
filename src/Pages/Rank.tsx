@@ -27,7 +27,7 @@ const Rank = () => {
             </div>
             <div className="row">
                 {/* link to get back to words path to try again */}
-                <Link to='/words'><button className='btn btn-warning w-100'>Try again!!</button></Link>
+                <Link to='/english-practicing-test/words'><button className='btn btn-warning w-100'>Try again!!</button></Link>
             </div>
         </div>
         </> 

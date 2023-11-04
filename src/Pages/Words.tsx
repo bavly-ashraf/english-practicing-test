@@ -91,7 +91,7 @@ const Words = () => {
                 </div>
                 <div className="row mb-2">
                     {/* a button appears when the user finishes all the questions (conditional rendering) */}
-                    {currentQuestion==allQuestions.length && <Link to='/rank' state={(userScore/allQuestions.length)*100}><div className="btn btn-success w-100">View my rank</div></Link>}
+                    {currentQuestion==allQuestions.length && <Link to='/english-practicing-test/rank' state={(userScore/allQuestions.length)*100}><div className="btn btn-success w-100">View my rank</div></Link>}
                 </div>
             </div>
         </div>

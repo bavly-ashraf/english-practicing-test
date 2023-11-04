@@ -11,7 +11,7 @@ const Home = () => {
                 <div className='row justify-content-center'>
                     <h2 className='col-12 text-center text-primary'>Welcome to the practice area!!</h2>
                     {/* link to get to words path to start practicing */}
-                    <Link to='/words' className='col-4'><button className='btn btn-success w-100'>Start!!</button></Link>
+                    <Link to='/english-practicing-test/words' className='col-4'><button className='btn btn-success w-100'>Start!!</button></Link>
                 </div>
             </div>
         </>
