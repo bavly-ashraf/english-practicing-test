@@ -2,9 +2,12 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://bavly-ashraf.github.io/english-practicing-test/",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d dist",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -26,6 +29,7 @@
     "eslint": "^8.44.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",
+    "gh-pages": "^6.0.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
   }
