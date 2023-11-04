@@ -8,9 +8,9 @@ const AppRoutes = () => {
     return ( <>
     {/* routes using react-router-dom v5 */}
     <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/words' element={<Words />} />
-        <Route path='/rank' element={<Rank />} />
+        <Route path='/english-practicing-test' element={<Home />} />
+        <Route path='/english-practicing-test/words' element={<Words />} />
+        <Route path='/english-practicing-test/rank' element={<Rank />} />
     </Routes>
     </> );
 }
